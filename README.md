@@ -49,7 +49,7 @@ Firebase Authentication
 Google Map 显示工作地点（Marker + 地图缩放）
 
 
-<img width="600px" height="500px" alt="061416ae53b6f1b782593bf600e381de" src="https://github.com/user-attachments/assets/56c9b7ca-7a89-42a4-a072-fbaadd3eb749" />
+<img width="500px" height="600px" alt="061416ae53b6f1b782593bf600e381de" src="https://github.com/user-attachments/assets/56c9b7ca-7a89-42a4-a072-fbaadd3eb749" />
 
 
 📝 4. 发布兼职（Post Job）
@@ -58,7 +58,7 @@ Google Map 显示工作地点（Marker + 地图缩放）
 
 图形化 UI
 
-<img width="400" height="600" alt="d98800d36f730ca126f23f93fa0ba392" src="https://github.com/user-attachments/assets/a6fdcb34-698b-42b8-80f0-a276fa9a50ac" />
+<img width="500" height="500" alt="d98800d36f730ca126f23f93fa0ba392" src="https://github.com/user-attachments/assets/a6fdcb34-698b-42b8-80f0-a276fa9a50ac" />
 
 
 🙋 5. 求职与申请管理
