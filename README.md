@@ -58,7 +58,7 @@ Google Map 显示工作地点（Marker + 地图缩放）
 
 图形化 UI
 
-<img width="500" height="500" alt="d98800d36f730ca126f23f93fa0ba392" src="https://github.com/user-attachments/assets/a6fdcb34-698b-42b8-80f0-a276fa9a50ac" />
+<img width="400" height="600" alt="d98800d36f730ca126f23f93fa0ba392" src="https://github.com/user-attachments/assets/a6fdcb34-698b-42b8-80f0-a276fa9a50ac" />
 
 
 🙋 5. 求职与申请管理
@@ -71,7 +71,8 @@ reject
 
 Employee 可查看自己的申请状态
 
-<img width="500" height="500" alt="e0362f9e722945f913cb731841ba19a7" src="https://github.com/user-attachments/assets/8be588be-af16-40f6-bcac-c5d336cb9553" /><img width="1000" height="1000" alt="c3340c9bb6e411ed29f29068bc5be45f" src="https://github.com/user-attachments/assets/ee72f4e8-b009-4944-8b06-80f10c049103" />
+<img width="500" height="500" alt="e0362f9e722945f913cb731841ba19a7" src="https://github.com/user-attachments/assets/8be588be-af16-40f6-bcac-c5d336cb9553" />
+<img width="500" height="500" alt="c3340c9bb6e411ed29f29068bc5be45f" src="https://github.com/user-attachments/assets/ee72f4e8-b009-4944-8b06-80f10c049103" />
 
 
 
