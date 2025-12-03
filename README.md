@@ -28,7 +28,7 @@ My Jobs / My Applications 页面
 支持 Email 注册、密码验证
 
 Firebase Authentication
-<img width="2552" height="1909" alt="8ff19320a4d3d8f187feeeaef0f64278" src="https://github.com/user-attachments/assets/09fcf23f-5a4c-4f1c-a24a-f303af436afe" />
+<img width="2552" height="1909" alt="8ff19320a4d3d8f187feeeaef0f64278" src="https://github.com/user-attachments/assets/09fcf23f-5a4c-4f1c-a24a-f303af436afe" width="20px" />
 
 
 🗺️ 2. 当前位置定位 + Nearby Jobs
