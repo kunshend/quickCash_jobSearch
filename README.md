@@ -45,7 +45,8 @@ Firebase Authentication
 查看兼职内容：描述、类别、位置
 
 Google Map 显示工作地点（Marker + 地图缩放）
-<img width="500px" height="500px" alt="061416ae53b6f1b782593bf600e381de" src="https://github.com/user-attachments/assets/56c9b7ca-7a89-42a4-a072-fbaadd3eb749" />
+
+<img width="1000px" height="500px" alt="061416ae53b6f1b782593bf600e381de" src="https://github.com/user-attachments/assets/56c9b7ca-7a89-42a4-a072-fbaadd3eb749" />
 
 
 📝 4. 发布兼职（Post Job）
