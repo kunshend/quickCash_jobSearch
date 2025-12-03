@@ -74,7 +74,7 @@ Employee 可查看自己的申请状态
 Employer 接受申请后跳转支付界面
 
 PayPal Sandbox
-<img width="1000" height="1000" alt="5ed9be20e680493295ee499693c1c4bc" src="https://github.com/user-attachments/assets/e8bbec7f-eeb7-48f9-9563-7f2db68de1eb" />
+<img width="500" height="600" alt="5ed9be20e680493295ee499693c1c4bc" src="https://github.com/user-attachments/assets/e8bbec7f-eeb7-48f9-9563-7f2db68de1eb" />
 
 
 🗂️ 7. 设置（Settings）
