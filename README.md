@@ -48,6 +48,7 @@ Firebase Authentication
 
 Google Map 显示工作地点（Marker + 地图缩放）
 
+
 <img width="600px" height="500px" alt="061416ae53b6f1b782593bf600e381de" src="https://github.com/user-attachments/assets/56c9b7ca-7a89-42a4-a072-fbaadd3eb749" />
 
 
@@ -56,6 +57,7 @@ Google Map 显示工作地点（Marker + 地图缩放）
 城市自动补全（Google Places API）
 
 图形化 UI
+
 <img width="500" height="500" alt="d98800d36f730ca126f23f93fa0ba392" src="https://github.com/user-attachments/assets/a6fdcb34-698b-42b8-80f0-a276fa9a50ac" />
 
 
@@ -68,7 +70,8 @@ accept
 reject
 
 Employee 可查看自己的申请状态
-<img width="1000" height="1000" alt="e0362f9e722945f913cb731841ba19a7" src="https://github.com/user-attachments/assets/8be588be-af16-40f6-bcac-c5d336cb9553" /><img width="1000" height="1000" alt="c3340c9bb6e411ed29f29068bc5be45f" src="https://github.com/user-attachments/assets/ee72f4e8-b009-4944-8b06-80f10c049103" />
+
+<img width="500" height="500" alt="e0362f9e722945f913cb731841ba19a7" src="https://github.com/user-attachments/assets/8be588be-af16-40f6-bcac-c5d336cb9553" /><img width="1000" height="1000" alt="c3340c9bb6e411ed29f29068bc5be45f" src="https://github.com/user-attachments/assets/ee72f4e8-b009-4944-8b06-80f10c049103" />
 
 
 
@@ -77,6 +80,7 @@ Employee 可查看自己的申请状态
 Employer 接受申请后跳转支付界面
 
 PayPal Sandbox
+
 <img width="500" height="600" alt="5ed9be20e680493295ee499693c1c4bc" src="https://github.com/user-attachments/assets/e8bbec7f-eeb7-48f9-9563-7f2db68de1eb" />
 
 
@@ -87,7 +91,8 @@ PayPal Sandbox
 Password Reset
 
 Logout
-<img width="1000" height="1000" alt="6c0eda5f4371163e38ac797151923230" src="https://github.com/user-attachments/assets/a0d35f19-3f54-444d-a64b-05a86309e667" />
+
+<img width="500" height="500" alt="6c0eda5f4371163e38ac797151923230" src="https://github.com/user-attachments/assets/a0d35f19-3f54-444d-a64b-05a86309e667" />
 
 
 🧩 技术栈
