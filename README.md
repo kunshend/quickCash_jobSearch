@@ -36,16 +36,16 @@ Firebase Authentication
 通过 Google Maps API 获取用户当前 GPS
 
 自动展示附近 5 个兼职
-<img width="1000" height="1000" alt="6c0eda5f4371163e38ac797151923230" src="https://github.com/user-attachments/assets/02c8ce64-4714-467e-9b2b-78085536bd6e" />
+<img width="1000px" height="1000px" alt="6c0eda5f4371163e38ac797151923230" src="https://github.com/user-attachments/assets/02c8ce64-4714-467e-9b2b-78085536bd6e" />
 
-<img width="1000" height="1000" alt="30d6f497eb5c387e1d95b59611dabd60" src="https://github.com/user-attachments/assets/3d1e439b-5d08-48e2-a0d5-2b01cc0b0890" />
+<img width="1000px" height="1000px" alt="30d6f497eb5c387e1d95b59611dabd60" src="https://github.com/user-attachments/assets/3d1e439b-5d08-48e2-a0d5-2b01cc0b0890" />
 
 📋 3. Job 浏览、排序与详情
 
 查看兼职内容：描述、类别、位置
 
 Google Map 显示工作地点（Marker + 地图缩放）
-<img width="1000" height="1000" alt="061416ae53b6f1b782593bf600e381de" src="https://github.com/user-attachments/assets/56c9b7ca-7a89-42a4-a072-fbaadd3eb749" />
+<img width="1000px" height="1000px" alt="061416ae53b6f1b782593bf600e381de" src="https://github.com/user-attachments/assets/56c9b7ca-7a89-42a4-a072-fbaadd3eb749" />
 
 
 📝 4. 发布兼职（Post Job）
