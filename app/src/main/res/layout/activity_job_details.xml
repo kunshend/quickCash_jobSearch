@@ -1,0 +1,116 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/jobDetailsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <!-- Job Title -->
+    <TextView
+        android:id="@+id/jobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="8dp"/>
+
+    <!-- Job Category -->
+    <TextView
+        android:id="@+id/jobCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <!-- Job Description -->
+    <TextView
+        android:id="@+id/jobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description: "
+        android:textSize="16sp"
+        android:paddingBottom="6dp"/>
+
+    <!-- Employer Email -->
+    <TextView
+        android:id="@+id/employerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="16sp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Job Status -->
+    <TextView
+        android:id="@+id/jobStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        android:textSize="16sp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Latitude -->
+    <TextView
+        android:id="@+id/jobLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude: "
+        android:textSize="16sp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Longitude -->
+    <TextView
+        android:id="@+id/jobLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude: "
+        android:textSize="16sp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Firebase ID -->
+    <TextView
+        android:id="@+id/jobFirebaseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firebase ID: "
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:paddingBottom="8dp"/>
+
+    <!-- Apply Now Button -->
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:text="Apply Now"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+
+
+
+    <!-- Google Map -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+
+</LinearLayout>
+

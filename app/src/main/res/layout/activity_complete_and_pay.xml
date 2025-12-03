@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Job Title (for reference) -->
+    <TextView
+        android:id="@+id/jobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Title"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <!-- Employee Email (for reference) -->
+    <TextView
+        android:id="@+id/employeeEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Email"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"/>
+
+    <!-- Payment Amount Input -->
+    <EditText
+        android:id="@+id/etPaymentAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:hint="Enter payment amount (e.g., 75.00)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"/>
+
+    <!-- Pay Button -->
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete Job, Pay"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

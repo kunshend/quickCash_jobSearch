@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">QuickCash</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <!-- Spinner Role Options -->
+    <string-array name="roles_array">
+        <item>Employee</item>
+        <item>Employer</item>
+    </string-array>
+
+    <!-- Job Category Options -->
+    <string-array name="job_categories_array">
+        <item>Select a Category</item>
+        <item>Technology</item>
+        <item>Hard Labour</item>
+        <item>Marketing</item>
+        <item>Retail</item>
+        <item>Education</item>
+    </string-array>
+
+
+    <!-- Message String -->
+    <string name="submitButton">Submit</string>
+    <string name="acceptButton">Accept</string>
+    <string name="rejectButton">Reject</string>
+    <string name="applicationTitle">Application List</string>>
+    <string name="INVALID_EMAIL">Email fields cannot be empty or Email not exist! Please check it again!</string>
+    <string name="Registered_enter_hit">Please enter registered email</string>
+    <string name="LACK_SPECIAL_PWD">Password must contain at least a special character!</string>
+    <string name="NOT_MATCHED">Password do not match!</string>
+    <string name="WRONG_REENTER_PWD">Passwords do not match! Please try again!</string>
+    <string name="INVALID_PWD">Invalid Password!</string>
+    <string name="returnButton">Return to Login</string>
+    <string name="noApplication">No Application Information...</string>
+
+    <string name="applications_list">List of Applications</string>
+    <string name="my_applications_list">My Applications List</string>
+
+
+</resources>

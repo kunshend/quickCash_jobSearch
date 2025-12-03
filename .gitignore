@@ -1,0 +1,23 @@
+#Ignore Android Studio (feel free to add more IDE) specific files
+.idea/
+*.iml
+
+#Ignore local configurations
+local.properties
+
+#Ignore build outputs
+/build/
+
+#Ignore test ouputs
+/outputs/
+
+#Ignore gradle files
+.gradle/
+
+#macOS
+.DS_Store
+._*
+
+#Windows
+Thumbs.db
+Desktop.ini
