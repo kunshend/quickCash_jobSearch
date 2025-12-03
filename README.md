@@ -30,28 +30,31 @@ My Jobs / My Applications 页面
 Firebase Authentication
 <img width="2552" height="1909" alt="8ff19320a4d3d8f187feeeaef0f64278" src="https://github.com/user-attachments/assets/09fcf23f-5a4c-4f1c-a24a-f303af436afe" />
 
-（这里放你的 Register 和 Login 截图）
 
 🗺️ 2. 当前位置定位 + Nearby Jobs
 
 通过 Google Maps API 获取用户当前 GPS
 
 自动展示附近 5 个兼职
-（插入你“Current Location: Halifax, NS”截图）
+<img width="2584" height="1919" alt="6c0eda5f4371163e38ac797151923230" src="https://github.com/user-attachments/assets/02c8ce64-4714-467e-9b2b-78085536bd6e" />
+
+<img width="2686" height="1545" alt="30d6f497eb5c387e1d95b59611dabd60" src="https://github.com/user-attachments/assets/3d1e439b-5d08-48e2-a0d5-2b01cc0b0890" />
 
 📋 3. Job 浏览、排序与详情
 
 查看兼职内容：描述、类别、位置
 
 Google Map 显示工作地点（Marker + 地图缩放）
-（插入你“View Job”截图）
+<img width="1151" height="1715" alt="061416ae53b6f1b782593bf600e381de" src="https://github.com/user-attachments/assets/56c9b7ca-7a89-42a4-a072-fbaadd3eb749" />
+
 
 📝 4. 发布兼职（Post Job）
 
 城市自动补全（Google Places API）
 
 图形化 UI
-（插入 Post Job 截图）
+<img width="2440" height="1903" alt="d98800d36f730ca126f23f93fa0ba392" src="https://github.com/user-attachments/assets/a6fdcb34-698b-42b8-80f0-a276fa9a50ac" />
+
 
 🙋 5. 求职与申请管理
 
@@ -62,14 +65,17 @@ accept
 reject
 
 Employee 可查看自己的申请状态
-（插入 My Applications / My Jobs 截图）
+<img width="2568" height="1919" alt="e0362f9e722945f913cb731841ba19a7" src="https://github.com/user-attachments/assets/8be588be-af16-40f6-bcac-c5d336cb9553" /><img width="2558" height="1919" alt="c3340c9bb6e411ed29f29068bc5be45f" src="https://github.com/user-attachments/assets/ee72f4e8-b009-4944-8b06-80f10c049103" />
+
+
 
 💸 6. 支付系统（PayPal）
 
 Employer 接受申请后跳转支付界面
 
 PayPal Sandbox
-（插入 PayPal 截图）
+<img width="1305" height="1919" alt="5ed9be20e680493295ee499693c1c4bc" src="https://github.com/user-attachments/assets/e8bbec7f-eeb7-48f9-9563-7f2db68de1eb" />
+
 
 🗂️ 7. 设置（Settings）
 
@@ -78,7 +84,8 @@ PayPal Sandbox
 Password Reset
 
 Logout
-（插入 Settings 截图）
+<img width="2584" height="1919" alt="6c0eda5f4371163e38ac797151923230" src="https://github.com/user-attachments/assets/a0d35f19-3f54-444d-a64b-05a86309e667" />
+
 
 🧩 技术栈
 前端 (Android)
@@ -101,7 +108,7 @@ Firebase Authentication
 
 PayPal Android SDK
 
-📁 项目结构（你可加入 README）
+📁 项目结构
 app/
  ├── java/com/example/quickcash
  │    ├── activities/
