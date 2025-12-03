@@ -1,93 +1,114 @@
-# Group_11_CSCI_3130_Winter
+📱 QuickCash：基于定位的兼职匹配与支付应用
 
+（Dalhousie University — CSCI 3130 软件工程大项目）
 
+⭐ 项目简介
 
-## Getting started
+QuickCash 是一款基于 Android 的兼职任务匹配应用，允许用户发布工作、申请工作，并通过 PayPal 进行支付。应用整合了 Firebase Realtime Database、Google Maps API、地点自动补全、PayPal SDK 等多项关键技术。
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+🔧 我的项目职责（可复制进简历）
+1. 负责核心模块开发
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Job Detail → Google Map 路径展示
 
-## Add your files
+用户当前位置定位与 Nearby Jobs 推荐
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+Payment 模块（PayPal 支付流程）
 
-```
-cd existing_repo
-git remote add origin https://git.cs.dal.ca/olaiya/group_11_csci_3130_winter.git
-git branch -M main
-git push -uf origin main
-```
+Role 切换（Employee / Employer）
 
-## Integrate with your tools
+Job Posting 与 City 自动补全
 
-- [ ] [Set up project integrations](https://git.cs.dal.ca/olaiya/group_11_csci_3130_winter/-/settings/integrations)
+My Jobs / My Applications 页面
 
-## Collaborate with your team
+📌 项目功能（含截图）
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+📍 1. 用户注册与登录
 
-## Test and Deploy
+支持 Email 注册、密码验证
 
-Use the built-in continuous integration in GitLab.
+Firebase Authentication
+<img width="2552" height="1909" alt="8ff19320a4d3d8f187feeeaef0f64278" src="https://github.com/user-attachments/assets/09fcf23f-5a4c-4f1c-a24a-f303af436afe" />
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+（这里放你的 Register 和 Login 截图）
 
-***
+🗺️ 2. 当前位置定位 + Nearby Jobs
 
-# Editing this README
+通过 Google Maps API 获取用户当前 GPS
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+自动展示附近 5 个兼职
+（插入你“Current Location: Halifax, NS”截图）
 
-## Suggestions for a good README
+📋 3. Job 浏览、排序与详情
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+查看兼职内容：描述、类别、位置
 
-## Name
-Choose a self-explaining name for your project.
+Google Map 显示工作地点（Marker + 地图缩放）
+（插入你“View Job”截图）
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+📝 4. 发布兼职（Post Job）
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+城市自动补全（Google Places API）
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+图形化 UI
+（插入 Post Job 截图）
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+🙋 5. 求职与申请管理
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+Employer 可以查看所有申请者并进行：
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+accept
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+reject
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+Employee 可查看自己的申请状态
+（插入 My Applications / My Jobs 截图）
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+💸 6. 支付系统（PayPal）
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Employer 接受申请后跳转支付界面
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+PayPal Sandbox
+（插入 PayPal 截图）
 
-## License
-For open source projects, say how it is licensed.
+🗂️ 7. 设置（Settings）
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+切换角色（Employee ↔ Employer）
+
+Password Reset
+
+Logout
+（插入 Settings 截图）
+
+🧩 技术栈
+前端 (Android)
+
+Java + Android Studio
+
+ConstraintLayout
+
+RecyclerView
+
+SupportMapFragment
+
+后台
+
+Firebase Realtime Database
+
+Firebase Authentication
+
+支付
+
+PayPal Android SDK
+
+📁 项目结构（你可加入 README）
+app/
+ ├── java/com/example/quickcash
+ │    ├── activities/
+ │    ├── entities/
+ │    └── utilities/
+ ├── res/
+ │    ├── layout/
+ │    ├── drawable/
+ │    └── values/
+ └── assets/
