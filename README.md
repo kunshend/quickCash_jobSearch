@@ -28,7 +28,7 @@ My Jobs / My Applications 页面
 支持 Email 注册、密码验证
 
 Firebase Authentication
-<img width="1000px" height="1000px" alt="8ff19320a4d3d8f187feeeaef0f64278" src="https://github.com/user-attachments/assets/09fcf23f-5a4c-4f1c-a24a-f303af436afe"  />
+<img width="500px" height="500px" alt="8ff19320a4d3d8f187feeeaef0f64278" src="https://github.com/user-attachments/assets/09fcf23f-5a4c-4f1c-a24a-f303af436afe"  />
 
 
 🗺️ 2. 当前位置定位 + Nearby Jobs
@@ -36,6 +36,7 @@ Firebase Authentication
 通过 Google Maps API 获取用户当前 GPS
 
 自动展示附近 5 个兼职
+
 <img width="500px" height="500px" alt="6c0eda5f4371163e38ac797151923230" src="https://github.com/user-attachments/assets/02c8ce64-4714-467e-9b2b-78085536bd6e" />
 
 <img width="500px" height="500px" alt="30d6f497eb5c387e1d95b59611dabd60" src="https://github.com/user-attachments/assets/3d1e439b-5d08-48e2-a0d5-2b01cc0b0890" />
@@ -54,7 +55,7 @@ Google Map 显示工作地点（Marker + 地图缩放）
 城市自动补全（Google Places API）
 
 图形化 UI
-<img width="1000" height="1000" alt="d98800d36f730ca126f23f93fa0ba392" src="https://github.com/user-attachments/assets/a6fdcb34-698b-42b8-80f0-a276fa9a50ac" />
+<img width="500" height="500" alt="d98800d36f730ca126f23f93fa0ba392" src="https://github.com/user-attachments/assets/a6fdcb34-698b-42b8-80f0-a276fa9a50ac" />
 
 
 🙋 5. 求职与申请管理
